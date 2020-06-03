@@ -1,0 +1,31 @@
+* {
+  font-family: 'Roboto Mono', monospace;
+}
+
+nav {
+  /* width: 100%; */
+  display: inline-block;
+}
+
+nav a {
+  /* padding: 5% 5%; */
+  text-align: center;
+  /* display: inline-block; */
+  width: 5%;
+  margin: 5% 5%;
+  color: white;
+  font-size: 1.5rem;
+  /* max-width: 10%; */
+}
+
+.nav-plan {
+  background-color: #FF764E;
+}
+
+.nav-learn {
+  background-color: #5ED3EB;
+}
+
+.nav-involve {
+  background-color: #FFCD69;
+}
