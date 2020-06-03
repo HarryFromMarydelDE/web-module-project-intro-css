@@ -29,3 +29,26 @@ nav a {
 .nav-involve {
   background-color: #FFCD69;
 }
+
+#header-img {
+  border-radius: 50%;
+  width: 30%;
+  height: auto;
+  margin: 0% 1%;
+}
+
+#header-text {
+  display: inline-block;
+  font-size: 2rem;
+  text-align: center;
+  width: 65%;
+}
+
+h1 {
+  font-family: 'Chelsea Market', cursive;
+  font-size: 6rem;
+}
+
+.header-item {
+  margin: 16% 3%;
+}
