@@ -3,20 +3,24 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  font-size: 2rem;
+}
+
 nav {
-  /* width: 100%; */
-  display: inline-block;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  margin: -5% 0%;
+  border-spacing: 100px;
 }
 
 nav a {
-  /* padding: 5% 5%; */
+  display: table-cell;
   text-align: center;
-  /* display: inline-block; */
-  width: 5%;
-  margin: 5% 5%;
   color: white;
-  font-size: 1.5rem;
-  /* max-width: 10%; */
+  padding: 1% 1%;
+  border-radius: 15%;
 }
 
 .nav-plan {
@@ -40,7 +44,6 @@ nav a {
 
 #header-text {
   display: inline-block;
-  font-size: 2rem;
   text-align: center;
   width: 65%;
 }
@@ -52,4 +55,8 @@ h1 {
 
 .header-item {
   margin: 16% 3%;
+}
+
+header section div {
+  margin: -7% 0%;
 }
