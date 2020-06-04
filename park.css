@@ -25,6 +25,37 @@ nav a {
   color: white;
   padding: 1% 1%;
   border-radius: 15%;
+  text-decoration: none;
+}
+
+@keyframes main-hover {
+  from {
+    background-color: #4EFF76;
+  }
+  to {
+    background-color: #FF4ED7;
+  }
+}
+
+@keyframes main-normal {
+  from {
+    background-color: #FF4ED7;
+  }
+  to {
+    background-color: #4EFF76;
+  }
+}
+
+.nav-main {
+  background-color: #4EFF76;
+  animation-name: main-normal;
+  animation-duration: 0.5s;
+}
+
+.nav-main:hover {
+  background-color: #FF4ED7;
+  animation-name: main-hover;
+  animation-duration: 0.5s;
 }
 
 @keyframes plan-hover {
@@ -55,7 +86,6 @@ nav a {
   background-color: #4ED7FF;
   animation-name: plan-hover;
   animation-duration: 0.5s;
-;
 }
 
 @keyframes learn-hover {
