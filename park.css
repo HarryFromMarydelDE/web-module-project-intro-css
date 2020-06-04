@@ -23,16 +23,95 @@ nav a {
   border-radius: 15%;
 }
 
+@keyframes plan-hover {
+  from {
+    background-color: #FF764E;
+  }
+  to {
+    background-color: #4ED7FF;
+  }
+}
+
+@keyframes plan-normal {
+  from {
+    background-color: #4ED7FF;
+  }
+  to {
+    background-color: #FF764E;
+  }
+}
+
 .nav-plan {
   background-color: #FF764E;
+  animation-name: plan-normal;
+  animation-duration: 0.5s;
+}
+
+.nav-plan:hover {
+  background-color: #4ED7FF;
+  animation-name: plan-hover;
+  animation-duration: 0.5s;
+;
+}
+
+@keyframes learn-hover {
+  from {
+    background-color: #5ED3EB;
+  }
+  to {
+    background-color: #EB765E;
+  }
+}
+
+@keyframes learn-normal {
+  from {
+    background-color: #EB765E;
+  }
+  to {
+    background-color: #5ED3EB;
+  }
 }
 
 .nav-learn {
   background-color: #5ED3EB;
+  animation-name: learn-normal;
+  animation-duration: 0.5s;
+}
+
+.nav-learn:hover {
+  background-color: #EB765E;
+  animation-name: learn-hover;
+  animation-duration: 0.5s;
+}
+
+@keyframes involve-hover {
+  from {
+    background-color: #FFCD69;
+  }
+  to {
+    background-color: #699BFF;
+  }
+}
+
+@keyframes involve-normal {
+  from {
+    background-color: #699BFF;
+  }
+  to {
+    background-color: #FFCD69;
+  }
 }
 
 .nav-involve {
   background-color: #FFCD69;
+  animation-name: involve-normal;
+  animation-duration: 0.5s;
+}
+
+.nav-involve:hover {
+  background-color: #699BFF;
+  animation-name: involve-hover;
+  animation-duration: 0.5s;
 }
 
 #header-img {
@@ -55,8 +134,4 @@ h1 {
 
 .header-item {
   margin: 16% 3%;
-}
-
-header section div {
-  margin: -5% 0%;
 }
