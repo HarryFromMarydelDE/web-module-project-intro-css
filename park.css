@@ -7,6 +7,10 @@ body {
   font-size: 2rem;
 }
 
+#container {
+  margin: 1%;
+}
+
 nav {
   display: table;
   table-layout: fixed;
