@@ -1,0 +1,14 @@
+#warnings {
+  margin: 2% 35%;
+}
+
+.warning-image {
+  display: block;
+  height: 10em;
+  width: 10em;
+  margin: 0 auto;
+}
+
+.emphasized {
+  font-weight: bolder;
+}

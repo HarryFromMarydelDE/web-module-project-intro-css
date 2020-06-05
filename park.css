@@ -1,0 +1,187 @@
+html {
+  font-family: 'Roboto Mono', monospace;;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2rem;
+}
+
+#container {
+  margin: 1%;
+}
+
+nav {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  margin: -5% 0%;
+  border-spacing: 10rem;
+}
+
+nav a {
+  display: table-cell;
+  text-align: center;
+  color: white;
+  padding: 1% 1%;
+  border-radius: 15%;
+  text-decoration: none;
+}
+
+@keyframes main-hover {
+  from {
+    background-color: #4EFF76;
+  }
+  to {
+    background-color: #FF4ED7;
+  }
+}
+
+@keyframes main-normal {
+  from {
+    background-color: #FF4ED7;
+  }
+  to {
+    background-color: #4EFF76;
+  }
+}
+
+.nav-main {
+  background-color: #4EFF76;
+  animation-name: main-normal;
+  animation-duration: 0.5s;
+}
+
+.nav-main:hover {
+  background-color: #FF4ED7;
+  animation-name: main-hover;
+  animation-duration: 0.5s;
+}
+
+@keyframes plan-hover {
+  from {
+    background-color: #FF764E;
+  }
+  to {
+    background-color: #4ED7FF;
+  }
+}
+
+@keyframes plan-normal {
+  from {
+    background-color: #4ED7FF;
+  }
+  to {
+    background-color: #FF764E;
+  }
+}
+
+.nav-plan {
+  background-color: #FF764E;
+  animation-name: plan-normal;
+  animation-duration: 0.5s;
+}
+
+.nav-plan:hover {
+  background-color: #4ED7FF;
+  animation-name: plan-hover;
+  animation-duration: 0.5s;
+}
+
+@keyframes learn-hover {
+  from {
+    background-color: #5ED3EB;
+  }
+  to {
+    background-color: #EB765E;
+  }
+}
+
+@keyframes learn-normal {
+  from {
+    background-color: #EB765E;
+  }
+  to {
+    background-color: #5ED3EB;
+  }
+}
+
+.nav-learn {
+  background-color: #5ED3EB;
+  animation-name: learn-normal;
+  animation-duration: 0.5s;
+}
+
+.nav-learn:hover {
+  background-color: #EB765E;
+  animation-name: learn-hover;
+  animation-duration: 0.5s;
+}
+
+@keyframes involve-hover {
+  from {
+    background-color: #FFCD69;
+  }
+  to {
+    background-color: #699BFF;
+  }
+}
+
+@keyframes involve-normal {
+  from {
+    background-color: #699BFF;
+  }
+  to {
+    background-color: #FFCD69;
+  }
+}
+
+.nav-involve {
+  background-color: #FFCD69;
+  animation-name: involve-normal;
+  animation-duration: 0.5s;
+}
+
+.nav-involve:hover {
+  background-color: #699BFF;
+  animation-name: involve-hover;
+  animation-duration: 0.5s;
+}
+
+#header-img {
+  border-radius: 50%;
+  width: 30%;
+  height: auto;
+  margin: 0% 1%;
+}
+
+#header-text {
+  display: inline-block;
+  text-align: center;
+  width: 65%;
+}
+
+h1 {
+  font-family: 'Chelsea Market', cursive;
+  font-size: 6rem;
+}
+
+.header-item {
+  margin: 16% 3%;
+}
+
+#commentary {
+  background-color: #DDB9A3;
+  color: white;
+  padding: 2%;
+}
+
+#footer-img {
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #F9E7DC;
+}
